@@ -1,0 +1,39 @@
+/* =======================================
+   File: layout.css
+   Student: Sachin Kaushik
+   StudentID: 301379467
+   Date: 27-01-2024
+======================================= */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #1364A5; 
+    padding: 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; 
+    margin: 0 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00; 
+  }
+  

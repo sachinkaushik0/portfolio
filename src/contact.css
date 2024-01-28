@@ -1,0 +1,52 @@
+/* =======================================
+   File: contact.css
+   Student: Sachin Kaushik
+   StudentID: 301379467
+   Date: 27-01-2024
+======================================= */
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 10rem;
+  }
+  
+  .contactForm {
+    width: 45%;
+  }
+  
+  .contactInfo {
+    width: 45%;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-size: larger;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .submit {
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: #1364A5;
+    font-size: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: x-large;
+    text-align: center;
+  }
+  

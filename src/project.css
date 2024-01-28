@@ -1,0 +1,83 @@
+/* =======================================
+   File: project.css
+   Student: Sachin Kaushik
+   StudentID: 301379467
+   Date: 27-01-2024
+======================================= */
+#projectSection {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.projectTitle {
+    margin: 1rem 0;
+    font-size: 5rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectDesc {
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0 1rem; 
+}
+
+.projectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem; 
+}
+
+.projectItem {
+    text-align: center;
+}
+
+.projectImg {
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+    border-radius: 12px; 
+}
+
+.projectTitle {
+    display: block;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem; 
+
+
+.projectDetails {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.Btn {
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: rgb(136, 58, 58);
+    font-size: 1rem;
+    margin-top: 1.5rem; 
+}
+
+.gapAfterSeeMore {
+    height: 2rem; 
+}
+
+@media screen and (max-width: 585px) {
+    .projectImg {
+        height: 50vw;
+    }
+}
+}

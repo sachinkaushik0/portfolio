@@ -1,0 +1,62 @@
+/* =======================================
+   File: about.css
+   Student: Sachin Kaushik
+   StudentID: 301379467
+   Date: 27-01-2024
+======================================= */
+#about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 51rem;
+    padding: 2rem;
+  }
+  
+  .profileImage {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutText {
+    text-align: center;
+  }
+  
+  .aboutText h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutText p {
+    font-weight: 400;
+    font-size: xx-large;
+  }
+  
+  .hireMeButton {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #1364A5;
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
