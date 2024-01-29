@@ -4,14 +4,21 @@
    StudentID: 301379467
    Date: 27-01-2024
 ======================================= */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../src/about.css';
 import BBG from '../src/assets/photo.jpg';
 
+/* ============================
+   Section: JavaScript Functions
+============================ */
 export default function About() {
   const resumeLink = 'https://drive.google.com/file/d/17tZHQo1FWOEr8fYHu9Squ1HSzZZ3sWHv/view?usp=sharing';
 
+  /* =======================
+       HTML Structure
+      ======================= */
   return (
     <section id="about">
       <div className="aboutContent">
