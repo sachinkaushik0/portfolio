@@ -13,6 +13,9 @@ import service2Image from '../src/assets/service2.png';
 import service3Image from '../src/assets/service3.png';
 
 export default function Services() {
+  // =============================
+  // Section: Data and Variables
+  // =============================
   const services = [
     {
       id: 1,
@@ -33,6 +36,10 @@ export default function Services() {
       description: 'Develop mobile applications that bring your ideas to life on smartphones.',
     },
   ];
+
+  // ============================
+  // Section: JSX Structure
+  // ============================
 
   return (
     <section id="serviceSection">
